@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "norsebold";
+  src: url("./fonts/norse-bold-webfont.woff") format("woff"),
+    url("/fonts/norse-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  width: 500px;
+  height: 100vh;
+  /* position: relative; */
+}
+.leavesImage {
+  width: 500px;
+  height: 100vh;
+}
+.odinLogoContainer {
+  position: absolute;
+  color: white;
+  top: 200px;
+  height: 150px;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: norsebold, sans-serif;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.363);
+  /* opacity: 0.5; */
+}
+.odinLogo {
+  height: 140px;
+}
+.container2 {
+  width: 900px;
+  height: 100vh;
+}
+.header {
+  padding-top: 170px;
+  padding-right: 200px;
+  padding-left: 50px;
+  height: 35vh;
+  width: 900px;
+
+  font-size: 21px;
+  text-align: left;
+  font-weight: 600;
+  font-family: sans-serif;
+
+  background-color: rgb(243, 244, 246);
+}
+.headerFirstPara {
+  margin-bottom: 10px;
+}
+
+.formBody {
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 200px;
+  height: 30vh;
+  box-shadow: 0px -3px 2px -2px darkgray inset;
+}
+.signUpForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  letter-spacing: 2px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+input {
+  appearance: none;
+  width: 250px;
+  font-size: 21px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 5px;
+  border: 1px solid lightgray;
+}
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
+input:focus {
+  outline: none;
+  border: 1px solid rgb(14, 14, 236);
+}
+.footer {
+  font-family: sans-serif;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 200px;
+  height: 35vh;
+  background-color: rgb(243, 244, 246);
+}
+.signUpFormSubmitButton {
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  background-color: #596d48;
+  font-size: 18px;
+  padding: 10px 30px;
+
+  border-radius: 12px;
+  border: 1px solid gray;
+}
+.haveAnAccountPara {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.loginLink {
+  text-decoration: none;
+  color: #596d48;
+}

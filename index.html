@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container1">
+        <img
+          src="./images/halie-west-25xggax4bSA-unsplash.jpg"
+          alt="green leaves"
+          class="leavesImage"
+        />
+        <div class="odinLogoContainer">
+          <img src="./images/odin-lined.png" alt="odin logo" class="odinLogo" />
+          <p>ODIN</p>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="header">
+          <p class="headerFirstPara">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+
+          <p class="headerSecondPara">You <em>know</em> you want to.</p>
+        </div>
+        <div class="formBody">
+          <h2>Let's do this!</h2>
+          <form id="signUp" class="signUpForm" action="">
+            <div>
+              <label for="firstName">FIRST NAME</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                autocomplete="name first-name"
+              />
+            </div>
+            <div>
+              <label for="lastName">LAST NAME</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                autocomplete="name last-name"
+              />
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="email"
+              />
+            </div>
+            <div>
+              <label for="number">PHONE NUMBER</label>
+              <input
+                type="text"
+                inputmode="numeric"
+                name="number"
+                id="number"
+                autocomplete="number cc-number"
+              />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input
+                minlength="8"
+                type="password"
+                name="password"
+                id="password"
+                autocomplete="new-password"
+              />
+            </div>
+            <div>
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                autocomplete="new-password"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="footer">
+          <button class="signUpFormSubmitButton" form="signUp" type="submit">
+            Create Account
+          </button>
+          <p class="haveAnAccountPara">
+            Already have an account? <a class="loginLink" href="">Log in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
